@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "386440198258",
+    "project_id": "myapplication-cf5ab"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386440198258:android:c053aff69f8aeb22",
+        "android_client_info": {
+          "package_name": "com.paulduong.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386440198258-t5qja5lln5nebg37e2q594rebffc85lb.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "386440198258-i7trk6780dnl6oo8mltktmbmqdavblm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paulduong.login",
+            "certificate_hash": "d07d0aaf80bffe8cfb0cd885c6679d23fcc8ea62"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Nqnyz7RN4mArMLBQwSrO-Wqku4hN7lc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

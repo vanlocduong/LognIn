@@ -1,0 +1,2 @@
+-key AIzaSyDIvLMr8Yrfo85-ImKvQvmV2fHJ593WFiQ
+-gg service git clone https://github.com/googlesamples/google-services.git
