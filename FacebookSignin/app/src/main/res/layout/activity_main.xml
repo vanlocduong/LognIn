@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.paulduong.facebooksignin.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xin Chào"
+        android:textSize="30sp"
+        android:id="@+id/textView" />
+    <ImageView
+
+        android:layout_marginLeft="100dp"
+        android:orientation="vertical"
+        android:id="@+id/photoImageView"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_above="@+id/nameTextView"
+        android:background="@color/colorPrimaryDark"/>
+    <TextView
+
+        android:layout_marginLeft="100dp"
+        android:id="@+id/first_NameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:textSize="30sp"
+        android:text="FirstName" />
+    <TextView
+
+        android:layout_marginLeft="100dp"
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:textSize="30sp"
+       android:text="NAME" />
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextView"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+       android:text="Email" />
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailTextView"
+        android:text="ID"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:layout_marginLeft="100dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="logout"
+
+        android:text="@string/dangxuat"
+
+        android:id="@+id/button2"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FacebookSignin</string>
+    <string name="facebook_app_id">231461257259051</string>
+    <string name="fb_login_protocol_scheme">fb231461257259051</string>
+    <string name="xinchao">welcome</string>
+    <string name="dangxuat">logout</string>
+</resources>
